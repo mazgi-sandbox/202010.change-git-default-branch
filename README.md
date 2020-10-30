@@ -1,18 +1,18 @@
 # 202010.change-git-default-branch
 
 ```shellsession
-❯ git branch -vv        
+❯ git branch -vv
 * master 6d42ee1 [origin/master] Initial commit
 ```
 
 ```shellsession
 ❯ git branch --move master main
-❯ git branch -vv               
+❯ git branch -vv
 * main 6d42ee1 [origin/master] Initial commit
 ```
 
 ```shellsession
-❯ git push origin main  
+❯ git push origin main
 Total 0 (delta 0), reused 0 (delta 0)
 remote: 
 remote: Create a pull request for 'main' on GitHub by visiting:
@@ -30,7 +30,7 @@ To github.com:mazgi-sandbox/202010.change-git-default-branch.git
 ![change-default-branch](docs/images/change-default-branch.gif)
 
 ```shellsession
-❯ git fetch origin --prune     
+❯ git fetch origin --prune
 From github.com:mazgi-sandbox/202010.change-git-default-branch
  - [deleted]         (none)     -> origin/master
    (refs/remotes/origin/HEAD has become dangling)
@@ -41,7 +41,7 @@ warning: ignoring broken ref refs/remotes/origin/HEAD
 ```
 
 ```shellsession
-❯ git remote set-head origin --auto                                                                
+❯ git remote set-head origin --auto
 origin/HEAD set to main
 ❯ git branch --all --list
 * main
