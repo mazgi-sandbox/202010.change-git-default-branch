@@ -49,3 +49,8 @@ origin/HEAD set to main
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
 ```
+
+## Links
+
+- https://git-scm.com/docs/git-branch/2.29.0#Documentation/git-branch.txt---move
+- https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emset-headem
