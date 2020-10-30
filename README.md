@@ -43,7 +43,7 @@ warning: ignoring broken ref refs/remotes/origin/HEAD
 ```shellsession
 ❯ git remote set-head origin --auto                                                                
 origin/HEAD set to main
-❯ git branch --all --list | cat    
+❯ git branch --all --list
 * main
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
