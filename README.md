@@ -7,7 +7,6 @@
 
 ```shellsession
 ❯ git branch --move master main
-T/tmp.YWcLRrR4/202010.change-git-default-branch on  main 
 ❯ git branch -vv               
 * main 6d42ee1 [origin/master] Initial commit
 ```
